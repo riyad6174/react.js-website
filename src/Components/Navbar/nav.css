@@ -19,6 +19,9 @@
     color: #61dafb;
     
 }
+.reacthome{
+    list-style: none;
+}
 
 
 .container{
@@ -64,6 +67,16 @@
     color: #ffffff;
     text-decoration: none;
     font-size: 17px;
+    margin: 0px 10px;
+}
+
+.reactlhomelink{
+    display: flex;
+    justify-content: space-between;
+    color: #61dafb;
+    text-decoration: none;
+    font-size: 20px;
+    font-weight: 800;
     margin: 0px 10px;
 }
 .links:hover{
