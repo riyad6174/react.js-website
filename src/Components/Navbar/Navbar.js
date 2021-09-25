@@ -1,12 +1,18 @@
-import react from 'react';
-import { FaReact,FaSearch} from 'react-icons/fa';
+
+
+//importing icons from front awasome for react
+import { FaReact} from 'react-icons/fa';
 import { IoLanguageSharp } from "react-icons/io5";
 
- 
+ //importing css 
 import './nav.css';
 
+//importing navlink from react-router-dom
 import { NavLink } from 'react-router-dom'
 
+
+
+//functional component
 const Navbar = () => {
     return (
         <>
@@ -49,5 +55,7 @@ const Navbar = () => {
     );
 
 }
+
+
 
 export default Navbar;
