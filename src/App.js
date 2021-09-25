@@ -5,9 +5,7 @@ import Header from './Components/Header/Header';
 function App() {
   return (
     <div >
-      <Header />
-      <h1>break</h1>
-      <Footer />
+      
     </div>
   );
 }
