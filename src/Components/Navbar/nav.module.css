@@ -1,18 +1,8 @@
 @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@200&display=swap');
-*{
-    padding-left: 0px;
-    padding-right: 15px;
-    margin-left: auto;
-    margin-right: auto;
-    font-weight: 400;
-    font-family: 'Poppins', sans-serif;
-}
 .logo{
     display: flex;
     align-items: center;
     color: #61dafb;
-    
-    
     padding-bottom: 5px;
 }
 .reactlogo{
@@ -25,22 +15,15 @@
 
 
 .container{
-
     align-items: center;
     box-sizing: border-box;
     background-color: #20232a;
     color: #ffffff;
-    position: fixed;
-    z-index: 1;
     width: 100%;
-    top: 0;
     height: 70px;
-    
     
 }
 .container .navbar{
-    
-    max-width: 1200px;
     margin: 0px auto;
     display: flex;
     justify-content: space-between;
@@ -57,9 +40,7 @@
     margin-right: 10px;
 }
 .items ul li{
-    
     list-style: none;
- 
 }
 .links{
     display: flex;

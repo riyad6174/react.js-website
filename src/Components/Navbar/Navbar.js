@@ -1,11 +1,11 @@
 
 
 //importing icons from front awasome for react
-import { FaReact } from 'react-icons/fa';
+// import { FaReact } from 'react-icons/fa';
 import { IoLanguageSharp } from "react-icons/io5";
 
 //importing css 
-import './nav.css';
+import classes from './nav.module.css';
 
 //importing navlink from react-router-dom
 import { Link , BrowserRouter as Router} from 'react-router-dom'
@@ -17,38 +17,38 @@ const Navbar = () => {
     return (
       
         <Router>
-            <div className='container'>
-                <div className='navbar'>
-                    <div className='logo'>
-                        <FaReact className='reactlogo' />
-                        <div className='items'>
-                            <ul><li className='nav' ><Link to='/' className='reactlhomelink'>React</Link> </li></ul>
+            <div className={classes.container}>
+                <div className={classes.navbar}>
+                    <div className={classes.logo}>
+                        <img src="##" alt="dfsf" className={classes.reactlogo} />
+                        <div className={classes.items}>
+                            <ul><li className={classes.nav} ><Link to='/' className={classes.reactlhomelink}>React</Link> </li></ul>
                         </div>
 
                     </div>
-                    <nav className='items'>
+                    <nav className={classes.items}>
 
-                        <div className='nav'>
+                        <div className={classes.nav}>
                             <ul>
-                                <li><Link to='/docs' className='links'>Docs</Link> </li>
-                                <li><Link to='/tutorial' className='links'>Tutorial</Link></li>
-                                <li><Link to='/blog' className='links'>Blog</Link></li>
-                                <li><Link to='/community' className='links'>Community</Link></li>
+                                <li><Link to='/docs' className={classes.links}>Docs</Link> </li>
+                                <li><Link to='/tutorial' className={classes.links}>Tutorial</Link></li>
+                                <li><Link to='/blog' className={classes.links}>Blog</Link></li>
+                                <li><Link to='/community' className={classes.links}>Community</Link></li>
 
                             </ul>
                         </div>
 
                     </nav>
-                    <div className='searchbar'>
+                    <div className={classes.searchbar}>
 
                         <input type="search" placeholder="Search" />
                     </div>
-                    <div className='items'>
-                        <div className='nav'>
+                    <div className={classes.items}>
+                        <div className={classes.nav}>
                             <ul>
-                                <li><Link to='/version' className='links'>v17.02</Link> </li>
-                                <li><Link to='/languages' className='links'><IoLanguageSharp className="langlogo" />Languages</Link></li>
-                                <li><Link to='/github' className='links'>Github</Link></li>
+                                <li><Link to='/version' className={classes.links}>v17.02</Link> </li>
+                                <li><Link to='/languages' className={classes.links}><IoLanguageSharp className="langlogo" />Languages</Link></li>
+                                <li><Link to='/github' className={classes.links}>Github</Link></li>
 
                             </ul>
                         </div>
